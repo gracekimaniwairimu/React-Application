@@ -6,8 +6,9 @@ function Header() {
   <NavLink to="/">Home</NavLink>
   
   <NavLink to="/Products">Products</NavLink>
-  <NavLink to="/Footer">Contact
-  </NavLink>
+  <NavLink to="/Footer">Contact  </NavLink>
+  <NavLink to="/Login">Login  </NavLink>
+
   {/* <input type="text" placeholder="Search.."></input> */}
   {/* <button type="submit"><i class="fa fa-search"></i></button> */}
   <h2>Welcome to my website</h2>

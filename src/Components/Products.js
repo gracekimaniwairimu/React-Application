@@ -24,10 +24,10 @@ class Products extends React.Component{
                 
                 <div className="product-info">
                   
-                  <img src='./images/kales.jpg'width="200"  height="200" alt=""/>
-                  <p> Kales </p>
-                  <p> Ksh {this.state.appleImgPrice}</p>
-                  <p> Quantity {this.state.spinachQuantity} </p>
+                  <img src='./images/carrots.jpg'width="200"  height="200" alt=""/>
+                  <p> Carrots </p>
+                  <p> Ksh:400 {this.state.appleImgPrice}</p>
+                  <p> Quantity:3kgs {this.state.spinachQuantity} </p>
                   <button className="btn" onClick="saveItem()">
                     Add To cart
                   </button>
@@ -40,8 +40,8 @@ class Products extends React.Component{
                 <div className="product-info">
                   <img src='./images/kales.jpg'width="200" height="200" alt=""/>
                   <p> Kales</p>
-                  <p> ksh 80</p>
-                  <p> Quantity {this.state.spinachQuantity} </p>
+                  <p> ksh 200</p>
+                  <p> Quantity:2gs {this.state.spinachQuantity} </p>
                   <button className="btn" onClick="saveItem()">
                     Add To cart
                   </button>
@@ -55,7 +55,7 @@ class Products extends React.Component{
                   <img src='./images/onions.jpg'width="200" height="200" alt=""/>
                   <p> Onions </p>
                   <p> ksh 100 </p>
-                  <p> Quantity {this.state.onionsQuantity} </p>
+                  <p> Quantity:1kg {this.state.onionsQuantity} </p>
                   <button className="btn" onClick="saveItem()">
                     Add To cart
                   </button>
@@ -68,8 +68,8 @@ class Products extends React.Component{
                 <div className="product-info">
                   <img src='./images/spinach.jpg' width="200" height="200" alt=""/>
                   <p> Spinach</p>
-                  <p> Ksh {this.state.appleImgPrice}</p>
-                  <p> Quantity {this.state.appleImgQuantity} </p>
+                  <p> Ksh:300 {this.state.appleImgPrice}</p>
+                  <p> Quantity:3kgs {this.state.appleImgQuantity} </p>
                   <button className="btn" onClick="saveItem()">
                     Add To cart
                   </button>
@@ -88,7 +88,7 @@ class Products extends React.Component{
           <img src='./images/mangoes.jpg'width="200" height="200" alt=""/>
           <h5>mangoes</h5>
           <p> ksh 50</p>
-          <p> Quantity {this.state.peachQuantity} </p>
+          <p> Quantity:2kgs {this.state.peachQuantity} </p>
           <button className="btn" onClick="saveItem()">
             Add To cart
           </button>
@@ -99,10 +99,10 @@ class Products extends React.Component{
           <img className="photo" src={this.state.veg4Img} alt="" />
         </div>
         <div className="product-info">
-          <img src='./images/kales.jpg'width="200" height="200" alt=""/>
-          <h5>Kales</h5>
+          <img src='./images/bananas.jpg'width="200" height="200" alt=""/>
+          <h5>Bananas</h5>
           <p> ksh 50</p>
-          <p> Quantity {this.state.peachQuantity} </p>
+          <p> Quantity:1kg {this.state.peachQuantity} </p>
           <button className="btn" onClick="saveItem()">
             Add To cart
           </button>
@@ -115,8 +115,8 @@ class Products extends React.Component{
         <div className="product-info">
           <img src='./images/water.jpg'width="200" height="200" alt=""/>
           <h5>Water melon</h5>
-          <p> ksh 250</p>
-          <p> Quantity {this.state.peachQuantity} </p>
+          <p> ksh 400</p>
+          <p> Quantity:2 {this.state.peachQuantity} </p>
           <button className="btn" onClick="saveItem()">
             Add To cart
           </button>
@@ -129,8 +129,8 @@ class Products extends React.Component{
         <div className="product-info">
           <img src='./images/apples.jpg'width="200" height="200" alt=""/>
           <h5>Apples</h5>
-          <p> ksh 50</p>
-          <p> Quantity {this.state.peachQuantity} </p>
+          <p> ksh 70</p>
+          <p> Quantity:2 {this.state.peachQuantity} </p>
           <button className="btn" onClick="saveItem()">
             Add To cart
           </button>

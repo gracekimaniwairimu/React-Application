@@ -20,6 +20,7 @@ class App extends React.Component{
       <Route path="/" component={Home} exact/>
       <Route path="/Products" component ={Products} exact/>
       <Route path="/Footer" component={Footer} exact/> 
+      <Route path="/Login" component={LoginForm} exact/> 
       </Switch>
       </div>
       </BrowserRouter>
